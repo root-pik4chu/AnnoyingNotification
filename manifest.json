@@ -1,0 +1,24 @@
+{
+   "manifest_version": 3,
+   "name": "Focus Notifier",
+   "version": "1.0",
+   "description": "Detects YouTube Shorts and Instagram Reels to keep you focused.",
+   "permissions": ["tabs", "activeTab", "notifications"],
+   "background": {
+     "service_worker": "background.js"
+   },
+   "action": {
+     "default_popup": "popup.html",
+     "default_icon": {
+       "16": "icon.png",
+       "48": "icon.png",
+       "128": "icon.png"
+     }
+   },
+   "icons": {
+     "16": "icon.png",
+     "48": "icon.png",
+     "128": "icon.png"
+   }
+ }
+ 
